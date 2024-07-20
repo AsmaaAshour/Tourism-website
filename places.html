@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header class="bg-light text-dark p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <img src="../FinalTask/images/logo.jpg" class="logo" style="width: 100px; height: auto; border-radius: 50%;">
+                <span class="ms-3 fs-4 fw-bold">Tourism Website</span>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-dark" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="places.html">Touristic Places</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>    
+
+    <main class="container my-5">
+        <h1 class="text-center mb-4">Touristic Places</h1>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="../FinalTask/images/place1.jfif" class="card-img-top"  id="card-img-1">
+                    <div class="card-body">
+                        <h5 class="card-title" id="place-name-1">Maldives</h5>
+                        <p class="card-text">The Maldives offers pristine white-sand beaches, crystal-clear turquoise waters, and vibrant coral reefs, making it a tropical paradise for relaxation and adventure.</p>
+                        <a href="#"class="btn btn-primary" onclick="changeImage('card-img-1');">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="../FinalTask/images/place2.jfif" class="card-img-top" id="card-img-2">
+                    <div class="card-body">
+                        <h5 class="card-title" id="place-name-2">Thailand</h5>
+                        <p class="card-text">Thailand is renowned for its stunning beaches, bustling markets, ancient temples, and flavorful cuisine, offering a perfect blend of relaxation and adventure.</p>
+                        <a href="#" class="btn btn-primary" onclick="changeImage('card-img-2');">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="../FinalTask/images/place3.cms" class="card-img-top" id="card-img-3">
+                    <div class="card-body">
+                        <h5 class="card-title" id="place-name-2">India</h5>
+                        <p class="card-text">India boasts a rich tapestry of vibrant cultures, historical landmarks, and diverse landscapes, from the majestic Himalayas to the serene backwaters of Kerala.</p>
+                        <a href="#" class="btn btn-primary" onclick="changeImage('card-img-3');">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="../FinalTask/images/place4.webp" class="card-img-top"  id="card-img-4">
+                    <div class="card-body">
+                        <h5 class="card-title" id="place-name-4">Germany</h5>
+                        <p class="card-text">Germany is celebrated for its rich history, picturesque landscapes, and vibrant cities, offering a blend of medieval charm, modern culture, and world-class heritage.</p>
+                        <a href="#" class="btn btn-primary" onclick="changeImage('card-img-4');">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+  
+    <footer class="bg-light text-dark text-center p-3">
+        <div class="container">
+            <p>Contact us: info@tourismwebsite.com | +123 456 7890</p>
+            <p>&copy; 2024 Tourism Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>

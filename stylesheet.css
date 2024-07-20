@@ -1,0 +1,70 @@
+/*home page*/
+.custom-welcome
+{
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/*place page*/
+.card-img-top 
+{
+    height: 200px;
+    object-fit: cover;
+}
+.card-title 
+{
+    font-size: 1.25rem;
+}
+.card-title:hover 
+{
+    font-size: 1.5rem;
+}
+.card-text 
+{
+    font-size: 1rem; 
+}
+/*contact page*/
+.contact-info 
+{
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+.contact-info h2
+{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.contact-info li
+{
+    margin-bottom: 0.5rem;
+}
+.contact-form
+{
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.contact-form h2
+{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.contact-form .form-control
+{
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+}
+.contact-form .btn-primary
+{
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+}
+.contact-form .btn-primary:hover
+{
+    background-color: #010203;
+}
